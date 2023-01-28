@@ -1,0 +1,88 @@
+*{
+    font-family: Arial, ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-bar .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: rgb(19, 51, 51);
+}
+
+.menu-bar ul li a {
+    color: rgb(19, 51, 51);
+}
+
+h2 {
+    text-align: center;
+
+}
+
+main {
+    margin-top: 80px;
+    width: 1200;
+    height: 550px;
+    background-color: rgb(19, 51, 51);
+}
+
+
+main form {
+    height: 500px;
+    justify-content: center;
+    color: azure;
+    margin-top: 40px;
+}
+
+
+.col-12 #btn-calculate {
+    padding: 10px 40px;
+}
+
+.col-3 .input-group {
+    height: 50px;
+}
+
+#result, #standard {
+    height: 40px;
+}
+
+#btn-calculate {
+    background-color: azure;
+    color: rgb(19, 51, 51);
+    border-radius: 5px;
+    margin-top: -15px;
+}
+
+#btn-calculate:hover{
+    background-color: rgb(89, 230, 230);
+    
+}
+
+#footer p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footer .nav-item {
+    font-size: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#footer .nav-item a {
+    padding-left: 20px;
+    color: rgb(19, 51, 51);
+}
+
+.nav-item a:hover {
+   
+    color: rgb(60, 177, 177);
+}
+
+#footer .nav-item a:hover {
+   
+    color: rgb(60, 177, 177);
+}
